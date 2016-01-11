@@ -33,6 +33,9 @@
   <% if (!index){ %>
     <%- partial('post/nav') %>
   <% } %>
+  <a href="<%- post.permalink %>">
+    <img src="https://ga-beacon.appspot.com/UA-72229702-1/<%- post.path -%>?pixel" />
+  </a>
 </article>
 
 <% if (!index && post.comments && config.disqus_shortname){ %>
