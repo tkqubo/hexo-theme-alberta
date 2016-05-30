@@ -7,6 +7,11 @@ menu:
   Archives: /archives
   About: /about
 rss: /atom.xml
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
 
 menu_icon:
   Home: fa-home
