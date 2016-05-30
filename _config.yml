@@ -1,4 +1,7 @@
 # Header
+type: blog
+image: /images/miki.jpg
+description: Software engineering, Programming, Scala, TypeScript
 menu:
   Home: /
   Archives: /archives
