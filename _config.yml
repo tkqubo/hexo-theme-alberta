@@ -3,7 +3,7 @@ menu:
   Home: /
   Archives: /archives
   About: /about
-#rss: /atom.xml
+rss: /atom.xml
 
 menu_icon:
   Home: fa-home
@@ -20,9 +20,14 @@ your_img: /images/me.jpg
 # Miscellaneous
 google_analytics: 
 favicon:
-twitter:
+twitter: tkqubo
 google_plus:
 fb_admins:
 fb_app_id:
 
 comment_provider: disqus
+
+emojis:
+  image_dir: images/emojis
+plugins:
+  - hexo-tag-emojis
